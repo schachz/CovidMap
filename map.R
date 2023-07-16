@@ -1,8 +1,9 @@
 # Load Data
-geocode <- read.csv("geocode.csv")
+geocode <- read.csv("https://raw.githubusercontent.com/schachz/CovidMap/main/geocode.csv")
 geo <- geocode
-owid.covid.data <- read.csv("owid-covid-data.csv")
+owid.covid.data <- read.csv("https://raw.githubusercontent.com/schachz/CovidMap/main/owid.covid.data.csv")
 full <- owid.covid.data
+
 
 # Load Packages
 library(tidyverse)
